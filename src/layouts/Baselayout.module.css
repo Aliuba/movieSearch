@@ -1,0 +1,30 @@
+.mainWrapper {
+    height: 100vh;
+    display: flex;
+  flex-direction: column;
+
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+overflow-y: auto;
+    position: relative;
+flex-direction: row;
+}
+
+header, footer {
+    padding: 10px 20px;
+    background-color: #282c34;
+    color: wheat;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+
+}
+.headerBase{
+    margin-right:  40px;
+
+}
